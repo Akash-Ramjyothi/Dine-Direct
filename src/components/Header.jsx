@@ -1,7 +1,10 @@
+import { useContext } from 'react'
 import logoImg from '../assets/logo.jpg'
 import Button from './UI/Button.jsx'
 
 export default function Header() {
+    useContext
+
     return (<header id="main-header">
         <div id="title">
             <img src={logoImg} alt='A restaurant' />
